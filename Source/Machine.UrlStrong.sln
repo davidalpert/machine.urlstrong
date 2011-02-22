@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machine.UrlStrong", "Machine.UrlStrong\Machine.UrlStrong.csproj", "{1E98DC01-970D-45EE-809D-9B15EE9A6905}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Machine.UrlStrong.Specs", "Machine.UrlStrong.Specs\Machine.UrlStrong.Specs.csproj", "{73AB8319-2A85-494B-956D-D42A8BAAD762}"

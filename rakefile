@@ -15,7 +15,7 @@ class String
   end
 end
 
-version = 'v3.5'
+version = 'v4.0.30319'
 compileTarget = ENV.include?('target') ? ENV['target'] : 'debug'
 project = "Machine.UrlStrong"
 packageName = "Distribution/#{project}-#{compileTarget}.zip"
