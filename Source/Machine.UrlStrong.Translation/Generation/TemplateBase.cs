@@ -12,8 +12,11 @@ namespace Machine.UrlStrong.Translation.Generation
   {
     public UrlStrongModel Model { get; set; }
 
-    public string Indent(int tabs, string code)
+    public string Indent(int tabs, object code)
     {
+        if (code == null)
+        	return "";
+
       var indentation = "  ";
       for (int i = 0; i < tabs - 1; i++)
       {
@@ -21,7 +24,7 @@ namespace Machine.UrlStrong.Translation.Generation
       }
 
       var builder = new StringBuilder();
-      var reader = new StringReader(code);
+      var reader = new StringReader(code.ToString());
       var line = reader.ReadLine();
 
       while (line != null)
@@ -38,7 +41,7 @@ namespace Machine.UrlStrong.Translation.Generation
       return builder.ToString();
     }
 
-    public string Indent(string code)
+    public string Indent(object code)
     {
       return Indent(1, code);
     }

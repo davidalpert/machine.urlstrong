@@ -1,4 +1,4 @@
-﻿<macro:PartAccessor xmlns:macro="http://sparkviewengine/macro/" node="Machine.UrlStrong.Translation.Model.UrlNode">
+﻿<macro name="PartAccessor" node="Machine.UrlStrong.Translation.Model.UrlNode">
 	<test if="node.IsOnlyParameter">
 public ${node.ClassName} this[${node.FormalParameters}]
 {
@@ -15,4 +15,4 @@ public ${node.ClassName} ${node.AccessorName}
   get { return new ${node.ClassName}(this); }
 }
 </test>
-</macro:PartAccessor>
+</macro>
