@@ -45,5 +45,10 @@ namespace Machine.UrlStrong.Translation.Generation
     {
       return Indent(1, code);
     }
+
+    public virtual string HTML(object value)
+    {
+       return Convert.ToString(value);
+    }
   }
 }
