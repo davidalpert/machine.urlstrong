@@ -13,7 +13,7 @@ namespace Machine.UrlStrong.Translation.Generation
   {
     public SparkViewEngine CreateViewEngine()
     {
-      var settings = new SparkSettings().SetPageBaseType(typeof(TemplateBase))
+      var settings = new SparkSettings { Debug = true }.SetPageBaseType(typeof(TemplateBase))
         .AddNamespace("System")
         .AddNamespace("System.Linq");
       var dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
