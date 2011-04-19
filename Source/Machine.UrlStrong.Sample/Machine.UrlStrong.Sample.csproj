@@ -14,7 +14,7 @@
     <AssemblyName>Machine.UrlStrong.Sample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <FileUpgradeFlags>0</FileUpgradeFlags>
     <OldToolsVersion>4.0</OldToolsVersion>
     <UpgradeBackupLocation>E:\Users\davida\lib\UrlStrong.git\Source\Backup3\</UpgradeBackupLocation>
   </PropertyGroup>
